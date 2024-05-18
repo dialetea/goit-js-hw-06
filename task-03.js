@@ -15,6 +15,7 @@ const images = [
 
 const ul = document.querySelector('ul.gallery');
 
+
 const galleryMarkup = images.map(image => `
   <li>
     <img src="${image.url}" alt="${image.alt}">
